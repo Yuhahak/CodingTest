@@ -6,13 +6,8 @@ int main() {
     int a,b;
     cin >> a >> m;
     cin >> b >> w;
-    if(a >= 19 || b >= 19){
-        if(m == "M" || w == "M"){
-            cout << "1";
-        }
-        else{
-            cout << 0;
-        }
+    if((a >= 19 && m == "M")|| (b >= 19 && w == "M")){
+        cout << "1";
     }
     else{
         cout <<"0";
