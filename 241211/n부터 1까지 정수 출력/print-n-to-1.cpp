@@ -6,6 +6,7 @@ int main() {
     cin >> a;
     while(a >= 1){
         cout << a << " ";
+        a--;
     }
     return 0;
 }
