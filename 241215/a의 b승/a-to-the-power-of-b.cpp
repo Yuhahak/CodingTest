@@ -1,13 +1,13 @@
 #include <iostream>
+#include <stdio.h>
+#include <math.h>
 using namespace std;
 
 int main() {
-    int a, b, c ;
-    c = 1;
+    int a, b;
     cin >> a>> b;
-    for(int i =a ; i <= b+1 ;i++){
-        c *= a;
-    }
-    cout << c;
+    int i = 1;
+    i = pow(a,b);
+    cout << i;
     return 0;
 }
