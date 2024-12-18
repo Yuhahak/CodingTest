@@ -6,17 +6,17 @@ int main() {
     bool isFalse = false;
     cin >> a >> b >> c;
     for(int i = a ; i <= b ; i++){
-        if(i % c != 0){
+        if(i % c == 0){
             isFalse = true;
             break;
         }
     }
 
     if(isFalse){
-        cout << "YES";
+        cout << "NO";
     }
     else{
-        cout << "NO";
+        cout << "YES";
     }
     return 0;
 }
